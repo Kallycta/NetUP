@@ -1,0 +1,38 @@
+.list {
+    display: flex;
+    padding: 0 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 170px;
+
+    &-active {
+        color: #FFFFFF;
+        text-align: left;
+        margin-left: 50px;
+        font-size: 20px;
+        width: 100%;
+        margin-bottom: 0;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+    }
+    &-passive {
+        color: #FFFFFF;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        // font-size: 22px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    &-none {
+        display: none;
+    }
+
+}
